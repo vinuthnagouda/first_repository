@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>test_cicd_oob_actions</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Test CICD OOB actions</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 15:03:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2031340fc3471210a15b304d050131ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test CICD OOB actions</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="First_app_cicd_github" source="x_1072863_first_0">dd8078c7c3871210a15b304d05013160</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="First_app_cicd_github">dd8078c7c3871210a15b304d05013160</sys_scope>
+        <sys_update_name>sys_hub_flow_2031340fc3471210a15b304d050131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 15:03:54</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2031340fc3471210a15b304d050131ca"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=2031340fc3471210a15b304d050131ca"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2031340fc3471210a15b304d050131ca^sys_idNOT IN6431340fc3471210a15b304d050131cc"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2031340fc3471210a15b304d050131ca</id>
+        <name>Test CICD OOB actions</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-16 15:03:54</sys_created_on>
+        <sys_id>6431340fc3471210a15b304d050131cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-16 15:03:54</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=6431340fc3471210a15b304d050131cc"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=2031340fc3471210a15b304d050131ca"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=2031340fc3471210a15b304d050131ca"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2031340fc3471210a15b304d050131ca"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_2031340fc3471210a15b304d050131ca"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_2031340fc3471210a15b304d050131ca"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_2031340fc3471210a15b304d050131ca"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2031340fc3471210a15b304d050131ca"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=2031340fc3471210a15b304d050131ca"/>
+</record_update>
